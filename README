@@ -1,0 +1,10 @@
+Compile Command:
+
+g++ bitv.cpp strclass.cpp timer.cpp zclass.cpp nargv.c MiniRedis.cpp -std=c++0x -o run -lpthread -fpermissive -w
+
+
+To run: ./run <db_file_name>   (If no file name is given, then by default data will be dumped to file named db_dump)
+
+
+Port Number = 15000
+Client Connection: telnet localhost 15000
